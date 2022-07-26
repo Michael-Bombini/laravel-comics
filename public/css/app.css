@@ -51,3 +51,45 @@ nav ul li {
      object-fit: cover;
 }
 
+.series {
+  background-color: #1C1C1C;
+  position: relative;
+}
+
+.series .current-series {
+  position: absolute;
+  color: #fff;
+  top: -5%;
+  left: 15%;
+  font-size: 1.3rem;
+  background-color: #0282F9;
+  padding: 0.8rem 1.2rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.8rem 3.6rem;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.fumetto {
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.fumetto img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top right;
+     object-position: top right;
+}
+
+.fumetto .nome-serie {
+  color: #fff;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+

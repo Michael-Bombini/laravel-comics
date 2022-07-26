@@ -11,5 +11,7 @@
         @include('partials.navbar') 
         @include('partials.jumbotron')
 
+        @yield('container_comic')
+
 </body>
 </html>
