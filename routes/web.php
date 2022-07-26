@@ -19,3 +19,12 @@ Route::get('/', function () {
 
     return view('home' , compact("comics"));
 });
+
+
+
+Route::get('/the-characters', function () {
+
+
+
+    return view('characters');
+})->name("characters");

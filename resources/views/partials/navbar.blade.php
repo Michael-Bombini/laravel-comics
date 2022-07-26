@@ -2,33 +2,43 @@
 $navLinks = [
     [
         'title' => 'Characters',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Comics',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Movies',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Tv',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Games',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Collectibles',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Videos',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Fans',
+        'link' => route("characters"),
     ],
     [
         'title' => 'News',
+        'link' => route("characters"),
     ],
     [
         'title' => 'Shop',
+        'link' => route("characters"),
     ],
 ];
 @endphp
@@ -49,7 +59,7 @@ $navLinks = [
                 <ul class="nav justify-content-center">
                     @foreach ($navLinks as $link)
                         <li class="nav-item">
-                            <a class="nav-link active p-3" aria-current="page" href="#">{{$link["title"]}}</a>
+                            <a class="nav-link active p-3" aria-current="page" href="{{$link['link']}}">{{$link["title"]}}</a>
                         </li>
                     @endforeach
                 </ul>
