@@ -9,6 +9,8 @@
 </head>
 <body>
         @include('partials.navbar')
+        
+        @include('partials.jumbotron')
 
 </body>
 </html>
