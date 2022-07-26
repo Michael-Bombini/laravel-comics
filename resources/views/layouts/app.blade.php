@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ut!</p>
+        @include('partials.navbar')
+
 </body>
 </html>
