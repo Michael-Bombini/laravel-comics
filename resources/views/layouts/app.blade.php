@@ -10,8 +10,8 @@
 <body>
         @include('partials.navbar') 
         @include('partials.jumbotron')
-
         @yield('container_comic')
+        @include('partials.footer')
 
 </body>
 </html>

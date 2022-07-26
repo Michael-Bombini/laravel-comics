@@ -1,0 +1,23 @@
+footer {
+    background-image: url("../assets/img/footer-bg.jpg");
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+.logo-dc {
+    width: 100%;
+ 
+}
+p {
+    color: darken($white , 40%);
+}
+}
+div.h-100 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
