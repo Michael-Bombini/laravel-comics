@@ -134,3 +134,47 @@ button {
   list-style-type: none;
 }
 
+footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+footer .logo-dc {
+  width: 100%;
+}
+
+footer p.subtitle {
+  color: #999999;
+  margin-bottom: 0.4rem;
+}
+
+div.h-100 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+.sign-up {
+  background-color: #303030;
+  position: relative;
+}
+
+.sign-up h3 {
+  color: #0282F9;
+  text-transform: uppercase;
+}
+
+.sign-up img {
+  width: 40px;
+  height: 40px;
+}
+

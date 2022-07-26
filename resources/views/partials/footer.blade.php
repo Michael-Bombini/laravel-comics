@@ -35,8 +35,8 @@ $footerLink =
                 <li class="col-4">
                     <h2 class="py-3">{{$link["nomeLink"]}}</h2>
                   
-                @foreach ($link as $subtitle)
-                    @dump($subtitle)
+                @foreach ($link["link"] as $subtitle)
+                    <p class="subtitle">{{$subtitle}}</p>
                 @endforeach
     
                 </li>
@@ -45,7 +45,7 @@ $footerLink =
              
         </div>
         <div class="h-100">
-            <img class="logo-dc" src="" alt="">
+            <img class="logo-dc" src="{{asset('images/dc-logo-bg.png')}}" alt="">
         </div>
     </div>
 

@@ -1,17 +1,17 @@
 footer {
-    background-image: url("../assets/img/footer-bg.jpg");
-    padding-top: 25px;
-    padding-bottom: 25px;
+    background-image: url("../../public/images/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     position: relative;
+
 .logo-dc {
     width: 100%;
  
 }
-p {
+p.subtitle {
     color: darken($white , 40%);
+    margin-bottom: 0.4rem;
 }
 }
 div.h-100 {
@@ -20,4 +20,9 @@ div.h-100 {
     left: 70%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+}
+
+
+li {
+    list-style-type: none;
 }

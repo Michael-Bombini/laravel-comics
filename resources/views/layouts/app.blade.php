@@ -12,6 +12,7 @@
         @include('partials.jumbotron')
         @yield('container_comic')
         @include('partials.footer')
+        @include('partials.bottomBar')
 
 </body>
 </html>
