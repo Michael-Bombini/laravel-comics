@@ -1,0 +1,17 @@
+.banner {
+    background-color: $light-blue;
+    img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+    span {
+        color: $white;
+        padding: 0.3rem;
+        font-size: 14px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}

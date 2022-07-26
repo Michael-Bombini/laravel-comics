@@ -93,3 +93,44 @@ button {
   text-transform: uppercase;
 }
 
+.price-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 60%;
+  text-align: center;
+  padding: 0.8rem 0.7rem;
+  background: rgba(0, 0, 0, 0.75);
+  transform: translate(-50%, -50%);
+  list-style-type: none;
+  color: #fff;
+  display: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fumetto:hover .price-type {
+  display: block;
+}
+
+.banner {
+  background-color: #0282F9;
+}
+
+.banner img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.banner span {
+  color: #fff;
+  padding: 0.3rem;
+  font-size: 14px;
+}
+
+.banner li {
+  list-style-type: none;
+}
+

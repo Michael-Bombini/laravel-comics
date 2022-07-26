@@ -4,8 +4,8 @@
         <div class="nome-serie">{{$comic['series']}}</div>
         <div class="price-type">
             <ul class="list-unstyled">
-                {{-- <li>{{price}}</li>
-                <li>{{type}}</li> --}}
+                <li>{{$comic['price']}}</li>
+                <li>{{$comic['type']}}</li>
             </ul>
         </div>
     </div>

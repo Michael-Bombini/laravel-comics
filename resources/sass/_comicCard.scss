@@ -12,4 +12,29 @@
         padding-top: 0.5rem;
         text-transform: uppercase;
     }
+
+
+    
+}
+
+
+
+.price-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 60%;
+    text-align: center;
+    padding: 0.8rem 0.7rem;
+    background: rgba(0,0,0,0.75);
+    transform: translate(-50% , -50%);
+    list-style-type: none;
+    color: #fff;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fumetto:hover .price-type  {
+    display: block;
 }

@@ -15,5 +15,5 @@
         </div>
 
     </div>
-    <button class="btn btn-primary text-light my-4">LOAD MORE</button>
+    <button class="btn btn-primary rounded-0 px-5 text-light my-4">LOAD MORE</button>
 </div>
