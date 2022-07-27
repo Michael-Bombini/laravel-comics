@@ -296,3 +296,11 @@ li {
   color: #0282F9;
 }
 
+.show.banner {
+  background-color: #F6F6F6;
+}
+
+.show.banner span {
+  color: gray;
+}
+
