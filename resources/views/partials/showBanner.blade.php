@@ -1,6 +1,11 @@
 <section>
     <div class="divider">
-        <img src="{{$thumb}}" alt="">
+        <div class="thumb-div">
+            <img src="{{$thumb}}" alt="">
+            <span class="thumb genre">{{$type}}</span>
+            <span class="thumb gallery"><a href="/">VIEW GALLERY</a></span>
+        </div>
+
     </div>
 
 
@@ -11,7 +16,7 @@
                 <div class="avaibility py-3 px-4 d-flex justify-content-between align-items-center">
                     <div>
                         <span class="green">U.S Price:</span>
-                        <span class="white">$19.99</span>
+                        <span class="white">{{$price}}</span>
                     </div>
 
                     <div class="d-flex g-4">
@@ -30,6 +35,5 @@
     </div>
 
 
-    {{-- @dump($artists) --}}
 
 </section>
