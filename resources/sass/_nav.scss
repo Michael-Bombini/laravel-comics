@@ -36,6 +36,7 @@ nav {
 
 
 .attivo {
-    color: red;
+    color: $light-blue;
     font-weight: bold;
+    border-bottom: 4px solid $light-blue;
 }

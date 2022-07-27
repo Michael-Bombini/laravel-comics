@@ -78,7 +78,7 @@ $navLinks = [
                 </ul>
 
                 <div class="search">
-                     Search
+                     Search <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>

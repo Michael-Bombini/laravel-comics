@@ -44,8 +44,9 @@ nav ul li {
 }
 
 .attivo {
-  color: red;
+  color: #0282F9;
   font-weight: bold;
+  border-bottom: 4px solid #0282F9;
 }
 
 .jumbotron {
