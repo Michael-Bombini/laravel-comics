@@ -53,7 +53,10 @@ $navLinks = [
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
                 <div>
-                    <img src="{{ asset('images/dc-logo.png') }}" alt="">
+                    <a href="/">
+                        <img src="{{ asset('images/dc-logo.png') }}" alt="">
+                    </a>
+
                 </div>
 
                 <ul class="nav justify-content-center">

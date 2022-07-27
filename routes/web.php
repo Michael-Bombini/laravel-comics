@@ -21,10 +21,35 @@ Route::get('/', function () {
 });
 
 
-
 Route::get('/the-characters', function () {
 
 
 
     return view('characters');
 })->name("characters");
+
+
+
+Route::get('/comic/{id}', function ($id) {
+
+    $comics = config("comics");
+
+    $comicResult = null;
+
+    foreach($comics as $comic){
+        if($comic["id"] === intval($id))
+            $comicResult = $comic;
+    }
+
+    if (is_null($comicResult)){
+        abort("404");
+   }
+    
+    
+    return view('show' , $comicResult);
+});
+
+
+
+
+
