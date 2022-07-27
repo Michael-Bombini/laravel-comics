@@ -3,7 +3,7 @@
 
 
 
-@dump($artists)
+{{-- @dump($artists) --}}
 @include('partials.showBanner')
 
 
