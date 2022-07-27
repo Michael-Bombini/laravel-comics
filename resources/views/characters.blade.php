@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('page-title','DC Characters')
 @section('container_comic')
     <div class="container">
         These are the characters...

@@ -29,6 +29,82 @@ Route::get('/the-characters', function () {
 })->name("characters");
 
 
+Route::get('/the-comics', function () {
+
+
+
+    return view('comics');
+})->name("comics");
+
+
+
+Route::get('/the-movies', function () {
+
+
+
+    return view('movies');
+})->name("movies");
+
+
+Route::get('/dc-tv', function () {
+
+
+
+    return view('tv');
+})->name("tv");
+
+
+Route::get('/dc-games', function () {
+
+
+
+    return view('games');
+})->name("games");
+
+
+Route::get('/the-collectibles', function () {
+
+
+
+    return view('collectibles');
+})->name("collectibles");
+
+
+Route::get('/the-videos', function () {
+
+
+
+    return view('videos');
+})->name("videos");
+
+Route::get('/our-fans', function () {
+
+
+
+    return view('fans');
+})->name("fans");
+
+
+Route::get('/dc-news', function () {
+
+
+
+    return view('news');
+})->name("news");
+
+
+Route::get('/the-shop', function () {
+
+
+
+    return view('shop');
+})->name("shop");
+
+
+
+
+
+
 
 Route::get('/comic/{id}', function ($id) {
 

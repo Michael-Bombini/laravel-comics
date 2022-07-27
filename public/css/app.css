@@ -43,6 +43,11 @@ nav ul li {
   text-align: right;
 }
 
+.attivo {
+  color: red;
+  font-weight: bold;
+}
+
 .jumbotron {
   height: 400px;
   width: 100%;

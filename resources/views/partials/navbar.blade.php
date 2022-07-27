@@ -3,42 +3,52 @@ $navLinks = [
     [
         'title' => 'Characters',
         'link' => route("characters"),
+        'name' => "characters"
     ],
     [
         'title' => 'Comics',
-        'link' => route("characters"),
+        'link' => route("comics"),
+        'name' => "comics"
     ],
     [
         'title' => 'Movies',
-        'link' => route("characters"),
+        'link' => route("movies"),
+        'name' => "movies"
     ],
     [
         'title' => 'Tv',
-        'link' => route("characters"),
+        'link' => route("tv"),
+        'name' => "tv"
     ],
     [
         'title' => 'Games',
-        'link' => route("characters"),
+        'link' => route("games"),
+        'name' => "games"
     ],
     [
         'title' => 'Collectibles',
-        'link' => route("characters"),
+        'link' => route("collectibles"),
+        'name' => "collectibles"
     ],
     [
         'title' => 'Videos',
-        'link' => route("characters"),
+        'link' => route("videos"),
+        'name' => "videos"
     ],
     [
         'title' => 'Fans',
-        'link' => route("characters"),
+        'link' => route("fans"),
+        'name' => "fans"
     ],
     [
         'title' => 'News',
-        'link' => route("characters"),
+        'link' => route("news"),
+        'name' => "news"
     ],
     [
         'title' => 'Shop',
-        'link' => route("characters"),
+        'link' => route("shop"),
+        'name' => "shop"
     ],
 ];
 @endphp
@@ -62,7 +72,7 @@ $navLinks = [
                 <ul class="nav justify-content-center">
                     @foreach ($navLinks as $link)
                         <li class="nav-item">
-                            <a class="nav-link active p-3" aria-current="page" href="{{$link['link']}}">{{$link["title"]}}</a>
+                            <a class="nav-link p-3 {{ Request::route()->getName() === $link["name"] ? 'attivo' : '' }}" aria-current="page" href="{{$link['link']}}">{{$link["title"]}}</a>
                         </li>
                     @endforeach
                 </ul>
