@@ -51,7 +51,7 @@
                     <div class="col-4">
                         <h4>On Sale Date: </h4>
                     </div>
-                    <div class="col-8">{{$sale_date}}</div>
+                    <div class="col-8">{{date("M d  Y", strtotime($sale_date))}}</div>
                 </div>
             </div>
 
